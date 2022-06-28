@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  user-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-28T09:26:02.0486236+02:00"
+    dependencies:
+    - name: spring-boot
+      repository: https://bookablecom.github.io/helm-charts
+      version: 2.0.3
+    - name: traefik-ingress
+      repository: https://bookablecom.github.io/helm-charts
+      version: 0.0.1
+    description: A Helm chart for Kubernetes
+    digest: 7177bb08c9cdae3f7bbfb0db291df65f040f71f88ec4974fd79137bbc67602eb
+    name: user-service
+    type: application
+    urls:
+    - user-service-4.0.1.tgz
+    version: 4.0.1
+generated: "2022-06-28T09:26:02.0474071+02:00"
